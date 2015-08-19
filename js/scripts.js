@@ -1,8 +1,8 @@
 var people = [
   {
-    firstName: 'Tony',
-    lastName: 'Stark',
-    secret: 'He is an Avenger.'
+    firstName: 'Greg',
+    lastName: 'Abes',
+    secret: 'Won the Nobel Prize for Hospitality.'
   }
 ];
 

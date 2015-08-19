@@ -1,25 +1,9 @@
 body {
-  background-color: #dddddd;
+  background-color: #e3e3e3;
   font-size: 16px;
   font-family: Montserrat, sans-serif;
-}
-nav, main {
-  border: 1px solid #999999;
-  background-color: #eeeeee;
-  padding: 0.25em;
-}
-nav {
-  width: 30%;
-  float: left;
+  padding: 1em;
 }
 main {
-  width: 67%;
-  float: right;
-  font-size: 120%;
-}
-button {
-  font-size: 100%;
-}
-.hidden {
-  display: none;
+  margin-top: 34px;
 }

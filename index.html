@@ -6,6 +6,7 @@
 
   <title>jQuery, Ajax, and JSON</title>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,28 +15,28 @@
 
 <body>
 
-  <nav>
-    <button id="menuToggle">Show/Hide Menu</button>
-    <ul>
-      <li>
+  <nav class="col-sm-3">
+    <button class="btn btn-default" id="menuToggle">Show/Hide Menu</button>
+    <ul class="list-group">
+      <li class="list-group-item">
         <a href="http://davestrus.com/data/person.json" data-remote="true">Load one person</a>
       </li>
-      <li>
+      <li class="list-group-item">
         <a href="http://davestrus.com/data/people.json" data-remote="true">Load all people</a>
       </li>
     </ul>
   </nav>
 
-  <main>
+  <main class="well col-sm-6">
     <ul id="people"></ul>
   </main>
 
-  <li id="template" class="hidden">
+  <li id="template" class="hidden list-group-item">
     {{ person.firstName }} {{ person.lastName }}
     ({{ person.secret }})
   </li>
 
-  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
