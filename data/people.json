@@ -1,0 +1,24 @@
+loadResults({
+  "people": [
+    {
+      "firstName": "Davey",
+      "lastName": "Strus",
+      "secret": "Last remaining citizen of the planet Zebes."
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Overbeck",
+      "secret": "Actually the creator of JavaScript. He's sorry."
+    },
+    {
+      "firstName": "Seth",
+      "lastName": "Baughman",
+      "secret": "Flexing."
+    },
+    {
+      "firstName": "Sally",
+      "lastName": "Reasoner",
+      "secret": "Runs an underground centipede fighting ring."
+    }
+  ]
+});
